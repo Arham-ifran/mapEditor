@@ -1,0 +1,173 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+.ast-site-header-cart {
+	display:none;
+}
+
+ul.events-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+}
+
+li.events-item {
+    width: 25%;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li.events-item h3 {
+    margin-top: 15px;
+    color: rgb(255, 56, 1);
+    margin-bottom: 0;
+}
+
+
+li.events-item a:hover figure.map-event-img img {
+    transform: scale(1.1);
+}
+
+li.events-item a figure.map-event-img img {
+    transform: scale(1);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: ease all .5s;
+}
+
+li.events-item a figure.map-event-img {
+    overflow: hidden;
+    position: relative;
+}
+
+li.events-item a:hover figure.map-event-img::before {
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255 56 1 / 52%);
+    z-index: 9;
+    position: absolute;
+}
+li.events-item p{
+    color: rgb(255, 56, 1);
+    font-weight: 700;
+}
+li.events-item:hover p {
+    color: #010a33;
+}
+.events-header {
+	margin-top: 50px;
+	text-align: center;
+}
+
+figure.map-event-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.event-single-page {
+    text-align: center;
+    margin: 0 auto;
+}
+.single-event-img  {
+    margin-bottom: 50px;
+}
+.personalise-event-section h3 {
+    font-size: 1.5rem;
+
+    color: #e85308;
+}
+.event-desc {
+    padding: 2rem;
+    background-color: rgb(249, 249, 249);
+    max-width: 100rem;
+    margin: auto;
+    text-align: center;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0px 0 10px #0000004a;
+}
+.events-list-single {
+    margin: 3rem 0px !important;
+    max-width: 130rem;
+}
+
+.event-desc a {
+    border-radius: 1.2rem;
+    color: rgb(255, 56, 1);
+    background: rgb(255, 255, 255);
+    transition: all 0.1s ease 0s;
+    border: 2px solid rgb(226, 226, 226);
+    cursor: pointer;
+    line-height: 1;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    width: 50%;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 auto;
+    font-weight: bold;
+    
+}
+@media (max-width: 991px) {
+   
+    .event-desc a {
+        font-size: 1rem;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .single-event-img img {
+        width: 100%;
+    }
+    li.events-item {
+        width: 50%;
+    }
+    .events-iteme {
+        width: 50%;
+    }
+   
+   
+}
+@media (max-width: 576px) {
+    li.events-item {
+        width: 100%;
+    }
+   
+}
+.page-id-3027 .ast-builder-menu-1 .menu-item > .menu-link {
+    font-size: 0.775rem;
+}
+
+[data-section*=section-hb-button-] .ast-builder-button-size-md .ast-custom-button {
+    padding: 20px 25px !important;
+}
+
+
+@media (max-width: 767px) {
+    .page-id-3027 .ast-below-header-wrap, 
+    .page-id-39 .ast-below-header-wrap,
+    .woocommerce-checkout .ast-below-header-wrap,
+    .woocommerce-order-received .ast-below-header-wrap {
+        display: none !important;
+    }
+}

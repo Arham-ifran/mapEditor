@@ -1,0 +1,363 @@
+:root {
+    --style-black_white-default-activity:  black;
+    --style-black_white-default-elevation:  black;
+    --style-black_white-default-label:  black;
+    --style-black_white-default-overlay:  white;
+    --style-black_white-default-text:  black;
+    --style-black_white-outline-activity:  black;
+    --style-black_white-outline-elevation:  black;
+    --style-black_white-outline-label:  black;
+    --style-black_white-outline-overlay:  white;
+    --style-black_white-outline-text:  black;
+}
+:root {
+    --style-blue-default-activity:  #fbfafa;
+    --style-blue-default-elevation:  rgba(255,  255,  255,  0.75);
+    --style-blue-default-label:  #fbfafa;
+    --style-blue-default-overlay:  #2a3d91;
+    --style-blue-default-text:  #fbfafa;
+    --style-blue-outline-activity:  #fbfafa;
+    --style-blue-outline-elevation:  rgba(42,  61,  145,  0.15);
+    --style-blue-outline-label:  #fbfafa;
+    --style-blue-outline-overlay:  #2a3d91;
+    --style-blue-outline-text:  #1e1e1e;
+    --style-blue-outline-theme2-text:  #fff;
+}
+:root {
+    --style-grey-dark-default-activity:  #e76b2e;
+    --style-grey-dark-default-elevation:  rgba(255,  255,  255,  0.75);
+    --style-grey-dark-default-label:  white;
+    --style-grey-dark-default-overlay:  #1e1e1e;
+    --style-grey-dark-default-text:  white;
+    --style-grey-dark-outline-activity:  #e76b2e;
+    --style-grey-dark-outline-elevation:  rgba(0,  0,  0,  0.1);
+    --style-grey-dark-outline-label:  white;
+    --style-grey-dark-outline-overlay:  #1e1e1e;
+    --style-grey-dark-outline-text:  #1e1e1e;
+    --style-grey-dark-outline-theme2-text:  #fff;
+}
+:root {
+    --style-grey-light-default-activity:  #e76b2e;
+    --style-grey-light-default-elevation:  rgba(0,  0,  0,  0.1);
+    --style-grey-light-default-label:  #1e1e1e;
+    --style-grey-light-default-overlay:  #eceded;
+    --style-grey-light-default-text:  #1e1e1e;
+    --style-grey-light-outline-activity:  #e76b2e;
+    --style-grey-light-outline-elevation:  rgba(0,  0,  0,  0.1);
+    --style-grey-light-outline-label:  #1e1e1e;
+    --style-grey-light-outline-overlay:  #eceded;
+    --style-grey-light-outline-text:  #1e1e1e;
+}
+:root {
+    --style-orange-default-activity:  white;
+    --style-orange-default-elevation:  rgba(255,  255,  255,  0.75);
+    --style-orange-default-label:  white;
+    --style-orange-default-overlay:  #e56b2e;
+    --style-orange-default-text:  white;
+    --style-orange-outline-activity:  white;
+    --style-orange-outline-elevation:  rgba(229,  107,  46,  0.15);
+    --style-orange-outline-label:  white;
+    --style-orange-outline-overlay:  #e56b2e;
+    --style-orange-outline-text:  #1e1e1e;
+    --style-orange-outline-theme2-text:  #fff;
+}
+:root {
+    --style-outdoor-default-activity:  #605650;
+    --style-outdoor-default-elevation:  rgba(96,  86,  80,  0.25);
+    --style-outdoor-default-label:  #605650;
+    --style-outdoor-default-overlay:  #eaeade;
+    --style-outdoor-default-text:  #605650;
+    --style-outdoor-outline-activity:  #605650;
+    --style-outdoor-outline-elevation:  rgba(96,  86,  80,  0.25);
+    --style-outdoor-outline-label:  #605650;
+    --style-outdoor-outline-overlay:  #eaeade;
+    --style-outdoor-outline-text:  #605650;
+}
+:root {
+    --style-pastel-default-activity:  #9f8b7d;
+    --style-pastel-default-elevation:  rgba(120,  106,  90,  0.25);
+    --style-pastel-default-label:  #786a5a;
+    --style-pastel-default-overlay:  rgba(249,  243,  229,  0.8);
+    --style-pastel-default-text:  #786a5a;
+    --style-pastel-outline-activity:  #9f8b7d;
+    --style-pastel-outline-elevation:  rgba(120,  106,  90,  0.25);
+    --style-pastel-outline-label:  #786a5a;
+    --style-pastel-outline-overlay:  rgba(249,  243,  229,  0.8);
+    --style-pastel-outline-text:  #786a5a;
+}
+:root {
+    --style-spring-default-activity:  #56b8b7;
+    --style-spring-default-elevation:  #416464;
+    --style-spring-default-label:  #416464;
+    --style-spring-default-overlay:  #e3ecec;
+    --style-spring-default-text:  #416464;
+    --style-spring-outline-activity:  #56b8b7;
+    --style-spring-outline-elevation:  #416464;
+    --style-spring-outline-label:  #416464;
+    --style-spring-outline-overlay:  #e3ecec;
+    --style-spring-outline-text:  #416464;
+}
+/* new styles */
+
+:root {
+    --style-crimsonride-default-activity:  #fbfafa;
+    --style-crimsonride-default-elevation:  rgba(255, 255, 255, 0.75);
+    
+    --style-crimsonride-default-label:  #fbfafa;
+    --style-crimsonride-default-overlay:  #ff4700;
+    --style-crimsonride-default-text:  #fbfafa;
+    --style-crimsonride-outline-activity:  #fbfafa;
+    --style-crimsonride-outline-elevation:   rgba(255, 71, 0, 1);
+    --style-crimsonride-outline-label:  #fbfafa;
+    --style-crimsonride-outline-overlay:  #ff4700;
+    --style-crimsonride-outline-text:  #1e1e1e;
+    --style-crimsonride-outline-theme2-text:  #fff;
+}
+:root {
+    --style-swampthings-default-activity:  #d3ff1a;
+    --style-swampthings-default-elevation:  #d3ff1a;
+    
+    --style-swampthings-default-label:  #d3ff1a;
+    --style-swampthings-default-overlay:  #d3ff1a;
+    --style-swampthings-default-text:  #d3ff1a;
+    --style-swampthings-outline-activity:  #d3ff1a;
+    --style-swampthings-outline-elevation:   #d3ff1a;
+    --style-swampthings-outline-label:  #d3ff1a;
+    --style-swampthings-outline-overlay:  #d3ff1a;
+    --style-swampthings-outline-text:  #d3ff1a;
+    --style-swampthings-outline-theme2-text:  #d3ff1a;
+}
+
+:root {
+    --style-coppermine-default-activity:  #e56b2e;
+    --style-coppermine-default-elevation:  #000000;
+    --style-coppermine-default-label:  #e56b2e;
+    --style-coppermine-default-overlay:  #e56b2e;
+    --style-coppermine-default-text:  #e56b2e;
+    --style-coppermine-outline-activity:  #e56b2e;
+    --style-coppermine-outline-elevation:  #e56b2e;
+    --style-coppermine-outline-label:  #e56b2e;
+    --style-coppermine-outline-overlay:  #e56b2e;
+    --style-coppermine-outline-text:  #e56b2e;
+    --style-coppermine-outline-theme2-text:  #e56b2e;
+}
+
+:root {
+    --style-mintymiles-default-activity:  #24803e;
+    --style-mintymiles-default-elevation:  #78efd5;
+    --style-mintymiles-default-label:  #24803e;
+    --style-mintymiles-default-overlay:  #24803e;
+    --style-mintymiles-default-text:  #24803e;
+    --style-mintymiles-outline-activity:  #24803e;
+    --style-mintymiles-outline-elevation:  #24803e;
+    --style-mintymiles-outline-label:  #24803e;
+    --style-mintymiles-outline-overlay:  #24803e;
+    --style-mintymiles-outline-text:  #24803e;
+    --style-mintymiles-outline-theme2-text:  #24803e;
+}
+:root {
+    --style-moonraker-default-activity:  #ffffff;
+    --style-moonraker-default-elevation:  #ffffff;
+    --style-moonraker-default-label:  #ffffff;
+    --style-moonraker-default-overlay:  #ffffff;
+    --style-moonraker-default-text:  #ffffff;
+    --style-moonraker-outline-activity:  #ffffff;
+    --style-moonraker-outline-elevation:  #8795a3;
+    --style-moonraker-outline-label:  #8795a3;
+    --style-moonraker-outline-overlay:  #8795a3;
+    --style-moonraker-outline-text:  #8795a3;
+    --style-moonraker-outline-theme2-text:  #8795a3;
+}
+:root {
+    --style-americanrust-default-activity:  #ffffff;
+    --style-americanrust-default-elevation:  #df5d3c;
+    --style-americanrust-default-label:  #ffffff;
+    --style-americanrust-default-overlay:  #ffffff;
+    --style-americanrust-default-text:  #ffffff;
+    --style-americanrust-outline-activity:  #ffffff;
+    --style-americanrust-outline-elevation:  #df5d3c;
+    --style-americanrust-outline-label:  #ffffff;
+    --style-americanrust-outline-overlay:  #ffffff;
+    --style-americanrust-outline-text:  #ffffff;
+    --style-americanrust-outline-theme2-text:  #ffffff;
+}
+
+:root {
+    --style-lingerie-default-activity:  #26e4c3;
+    --style-lingerie-default-elevation:  #26e4c3;
+    --style-lingerie-default-label:  #e287ff;
+    --style-lingerie-default-overlay:  #e287ff;
+    --style-lingerie-default-text:  #e287ff;
+    --style-lingerie-outline-activity:  #26e4c3;
+    --style-lingerie-outline-elevation:  #26e4c3;
+    --style-lingerie-outline-label:  #e287ff;
+    --style-lingerie-outline-overlay:  #e287ff;
+    --style-lingerie-outline-text:  #e287ff;
+    --style-lingerie-outline-theme2-text:  #e287ff;
+}
+
+:root {
+    --style-theclassic-default-activity:  #e45f18;
+    --style-theclassic-default-elevation:  #6d3b2c;
+    --style-theclassic-default-label:  #6d3b2c;
+    --style-theclassic-default-overlay:  #ede5d9;
+    --style-theclassic-default-text:  #6d3b2c;
+    --style-theclassic-outline-activity:  #e45f18;
+    --style-theclassic-outline-elevation:  #6d3b2c;
+    --style-theclassic-outline-label:  #6d3b2c;
+    --style-theclassic-outline-overlay:  #ede5d9;
+    --style-theclassic-outline-text:  #6d3b2c;
+    --style-theclassic-outline-theme2-text:  #6d3b2c;
+}
+
+:root {
+    --style-paperchase-default-activity:  #000000;
+    --style-paperchase-default-elevation:  #000000;
+    --style-paperchase-default-label:  #000000;
+    --style-paperchase-default-overlay:  #ffffff;
+    --style-paperchase-default-text:  #000000;
+    --style-paperchase-outline-activity:  #000000;
+    --style-paperchase-outline-elevation:  #000000;
+    --style-paperchase-outline-label:  #000000;
+    --style-paperchase-outline-overlay:  #ffffff;
+    --style-paperchase-outline-text:  #000000;
+    --style-paperchase-outline-theme2-text:  #000000;
+}
+
+:root {
+    --style-reddead-default-activity:  #d20000;
+    --style-reddead-default-elevation:  #35312a;
+    --style-reddead-default-label:  #35312a;
+    --style-reddead-default-overlay:  #dabe98;
+    --style-reddead-default-text:  #35312a;
+    --style-reddead-outline-activity:  #d20000;
+    --style-reddead-outline-elevation:  #35312a;
+    --style-reddead-outline-label:  #35312a;
+    --style-reddead-outline-overlay:  #dabe98;
+    --style-reddead-outline-text:  #35312a;
+    --style-reddead-outline-theme2-text:  #35312a;
+}
+
+:root {
+    --style-street-default-activity:  #000;
+    --style-street-default-elevation:  #000;
+    --style-street-default-label:  #000;
+    --style-street-default-overlay:  #ede8df;
+    --style-street-default-text:  #000;
+    --style-street-outline-activity:  #000;
+    --style-street-outline-elevation:  #000;
+    --style-street-outline-label:  #000;
+    --style-street-outline-overlay:  #ede8df;
+    --style-street-outline-text:  #000;
+    --style-street-outline-theme2-text:  #000;
+}
+
+:root {
+    --style-retro-default-activity:  #000;
+    --style-retro-default-elevation:  #000;
+    --style-retro-default-label:  #000;
+    --style-retro-default-overlay:  #e8ceb4;
+    --style-retro-default-text:  #000;
+    --style-retro-outline-activity:  #000;
+    --style-retro-outline-elevation:  #000;
+    --style-retro-outline-label:  #000;
+    --style-retro-outline-overlay:  #e8ceb4;
+    --style-retro-outline-text:  #000;
+    --style-retro-outline-theme2-text:  #000;
+}
+
+:root {
+    --style-groen-default-activity:  #000;
+    --style-groen-default-elevation:  #000;
+    --style-groen-default-label:  #000;
+    --style-groen-default-overlay:  #c6c4b3;
+    --style-groen-default-text:  #000;
+    --style-groen-outline-activity:  #000;
+    --style-groen-outline-elevation:  #000;
+    --style-groen-outline-label:  #000;
+    --style-groen-outline-overlay:  #c6c4b3;
+    --style-groen-outline-text:  #000;
+    --style-groen-outline-theme2-text:  #000;
+}
+/* new */
+:root {
+    --style-vintage-default-activity:  #000;
+    --style-vintage-default-elevation:  #000;
+    --style-vintage-default-label:  #000;
+    --style-vintage-default-overlay:  #f0e9de;
+    --style-vintage-default-text:  #000;
+    --style-vintage-outline-activity:  #000;
+    --style-vintage-outline-elevation:  #000;
+    --style-vintage-outline-label:  #000;
+    --style-vintage-outline-overlay:  #f0e9de;
+    --style-vintage-outline-text:  #000;
+    --style-vintage-outline-theme2-text:  #000;
+}
+:root {
+    --style-donkerblauw-default-activity:  #fff;
+    --style-donkerblauw-default-elevation:  #fff;
+    --style-donkerblauw-default-label:  #fff;
+    --style-donkerblauw-default-overlay:  #2f4550;
+    --style-donkerblauw-default-text:  #fff;
+    --style-donkerblauw-outline-activity:  #fff;
+    --style-donkerblauw-outline-elevation:  #fff;
+    --style-donkerblauw-outline-label:  #fff;
+    --style-donkerblauw-outline-overlay:  #2f4550;
+    --style-donkerblauw-outline-text:  #fff;
+    --style-donkerblauw-outline-theme2-text:  #fff;
+}
+:root {
+    --style-lichtblauw-default-activity:  #000;
+    --style-lichtblauw-default-elevation:  #000;
+    --style-lichtblauw-default-label:  #000;
+    --style-lichtblauw-default-overlay:  #7da8ba;
+    --style-lichtblauw-default-text:  #000;
+    --style-lichtblauw-outline-activity:  #000;
+    --style-lichtblauw-outline-elevation:  #000;
+    --style-lichtblauw-outline-label:  #000;
+    --style-lichtblauw-outline-overlay:  #7da8ba;
+    --style-lichtblauw-outline-text:  #000;
+    --style-lichtblauw-outline-theme2-text:  #000;
+}
+:root {
+    --style-outlinesonice-default-activity:  #fff;
+    --style-outlinesonice-default-elevation:  #fff;
+    --style-outlinesonice-default-label:  #fff;
+    --style-outlinesonice-default-overlay:  #299fbc;
+    --style-outlinesonice-default-text:  #fff;
+    --style-outlinesonice-outline-activity:  #fff;
+    --style-outlinesonice-outline-elevation:  #fff;
+    --style-outlinesonice-outline-label:  #fff;
+    --style-outlinesonice-outline-overlay:  #299fbc;
+    --style-outlinesonice-outline-text:  #fff;
+    --style-outlinesonice-outline-theme2-text:  #fff;
+}
+:root {
+    --style-outline2-default-activity:  #ed4512;
+    --style-outline2-default-elevation:  #ed4512;
+    --style-outline2-default-label:  #ed4512;
+    --style-outline2-default-overlay:  #fff;
+    --style-outline2-default-text:  #ed4512;
+    --style-outline2-outline-activity:  #ed4512;
+    --style-outline2-outline-elevation:  #ed4512;
+    --style-outline2-outline-label:  #ed4512;
+    --style-outline2-outline-overlay:  #fff;
+    --style-outline2-outline-text:  #ed4512;
+    --style-outline2-outline-theme2-text:  #ed4512;
+}
+
+:root {
+    --style-heather-default-activity:  #525030;
+    --style-heather-default-elevation:  #dad9a0;
+    --style-heather-default-label:  #525030;
+    --style-heather-default-overlay:  #dad9a0;
+    --style-heather-default-text:  #525030;
+    --style-heather-outline-activity:  #525030;
+    --style-heather-outline-elevation:  #dad9a0;
+    --style-heather-outline-label:  #525030;
+    --style-heather-outline-overlay:  #dad9a0;
+    --style-heather-outline-text:  #525030;
+    --style-heather-outline-theme2-text:  #525030;
+}
+
+/*# sourceMappingURL=style.css.map */
